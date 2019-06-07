@@ -1,0 +1,11 @@
+---
+- hosts: local
+  tasks:
+    - name: Install Nginx
+    action: apt pkg=nginx state=installed update_cache=true #this is okay
+
+
+
+
+
+...
