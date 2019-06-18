@@ -1,0 +1,60 @@
+---
+- hosts: brian
+  vars:
+   - docroot: /var/www/myservers2.com/public
+  tasks:
+   - name: Update all packages to the latest version
+     apt:
+      name: aptitude
+      state: present
+   - name: Update APT Cache
+     become: yes
+     become_user: root
+     apt:
+      update_cache: yes
+      cache_valid_time: 1800
+     register: apt_result
+     until: apt_result is successful
+     retries: 3
+     delay: 1
+     ignore_errors: yes
+   - name: Install lsb-release
+     become: yes
+     become_user: root
+     apt:
+       name: lsb-release
+# always try to use HTTPS. I'm not sure why the nginx folks don't provide it.
+   - name: add nginx apt-key
+     apt_key:
+      url: http://nginx.org/keys/nginx_signing.key
+      state: present
+   - name: add nginx apt repository
+     apt_repository:
+      repo: 'deb http://nginx.org/packages/mainline/ubuntu/ cosmic nginx'
+      state: present
+      filename: nginx
+      update_cache: yes
+     register: ppastable
+
+
+   - name: Install Nginx
+     apt: pkg=nginx state=present update_cache=true
+     when: ppastable is successful
+     register: nginxinstalled
+     notify:
+       - Start Nginx
+
+   - name: Create Web Root
+     when: nginxinstalled is successful
+     file:
+      path: "{{ docroot }}"
+      mode: 775
+      owner: www-data
+      group: www-data
+      state: directory
+     notify: Reload Nginx
+  handlers:
+    - name: Start Nginx
+      service: name=nginx state=started
+    - name: Reload Nginx
+      service: name=nginx state=reloaded

@@ -1,0 +1,6 @@
+---
+# run locally here, yadda yadda yadda
+- hosts: brian
+  connection: local
+  roles:
+    - nginx

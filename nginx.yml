@@ -1,11 +1,24 @@
 ---
-- hosts: local
+- hosts: brian
   tasks:
-    - name: Install Nginx
-    action: apt pkg=nginx state=installed update_cache=true #this is okay
+    - name: Installs Nginx
+      apt: pkg=nginx state=installed update_cache=true
+      notify:
+        - Start Nginx
 
+    - name: Upload default index.php for host
+      copy: src=static_files/index.php dest=/usr/share/nginx/html/ mode=0644
+      register: php
+      ignore_errors: True
 
+    - name: Remove index.html for host
+      command: rm /usr/share/nginx/html/index.html
+      when: php|success
 
+    - name: Upload default index.html for host
+      copy: src=static_files/index.html dest=/usr/share/nginx/html/ mode=0644
+      when: php|failed
 
-
-...
+  handlers:
+    - name: Start Nginx
+      service: name=nginx state=started
