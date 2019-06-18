@@ -1,7 +1,7 @@
 ---
 - hosts: brian
   vars:
-   - docroot: /var/www/myservers.com/public
+   - docroot: /var/www/myservers2.com/public
   tasks:
    - name: Update all packages to the latest version
      apt:
