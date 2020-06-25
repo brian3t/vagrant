@@ -1,0 +1,5 @@
+pull image ubuntu:18.04
+apt-get update
+apt install python3
+test connect: ansible -i inventory all -m ping
+ansible-galaxy collection install geerlingguy.php_roles -p ./collections

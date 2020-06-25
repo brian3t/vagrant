@@ -1,0 +1,47 @@
+{
+ "collection_info": {
+  "namespace": "geerlingguy",
+  "name": "php_roles",
+  "version": "0.9.6",
+  "authors": [
+   "geerlingguy (https://www.jeffgeerling.com/)"
+  ],
+  "readme": "README.md",
+  "tags": [
+   "php",
+   "apache",
+   "lamp",
+   "lemp",
+   "nginx",
+   "apache",
+   "debian",
+   "ubuntu",
+   "centos",
+   "amazon",
+   "linux",
+   "rhel",
+   "fedora",
+   "drupal",
+   "wordpress",
+   "laravel"
+  ],
+  "description": "An elegant collection of roles for PHP automation.",
+  "license": [
+   "MIT"
+  ],
+  "license_file": null,
+  "dependencies": {},
+  "repository": "https://github.com/geerlingguy/ansible-collection-php_roles",
+  "documentation": "https://github.com/geerlingguy/ansible-collection-php_roles",
+  "homepage": null,
+  "issues": "https://github.com/geerlingguy/ansible-collection-php_roles/issues"
+ },
+ "file_manifest_file": {
+  "name": "FILES.json",
+  "ftype": "file",
+  "chksum_type": "sha256",
+  "chksum_sha256": "a5239d696d27d86c3508d4b25f2b9b60b97e44b77b747f37ae5e148eb49ae1d2",
+  "format": 1
+ },
+ "format": 1
+}

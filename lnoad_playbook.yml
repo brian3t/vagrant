@@ -1,0 +1,35 @@
+---
+- hosts: u18
+  vars:
+   - docroot: /var/www/lnoapi
+   - php_version: '7.3'
+
+  collections:
+   - geerlingguy.php_roles
+
+  roles:
+   - php-versions
+   - php
+
+  tasks:
+   - name: Update all packages to the latest version
+     apt:
+      name: aptitude
+      state: present
+   - name: Update APT Cache
+     become: yes
+     become_user: root
+     apt:
+      update_cache: yes
+      cache_valid_time: 1800
+     register: apt_result
+     until: apt_result is successful
+     retries: 3
+     delay: 1
+     ignore_errors: yes
+   - name: Install lsb-release
+     become: yes
+     become_user: root
+     apt:
+       name: lsb-release
+
