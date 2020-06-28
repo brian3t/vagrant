@@ -1,7 +1,7 @@
 pull image ubuntu:18.04
-apt-get update
-apt install python3
+apt update && apt install python3 -y
 test connect: ansible -i inventory all -m ping
-ansible-galaxy collection install geerlingguy.php_roles -p ./collections
+// ansible-galaxy collection install geerlingguy.php_roles -p ./collections
 ansible-galaxy install -r requirements.yml
+ansible-playbook lnoad_init_playbook.yml -i inventory
 ansible-playbook lnoad_playbook.yml -i inventory

@@ -16,7 +16,7 @@
      register: apt_result
      until: apt_result is successful
      retries: 3
-     delay: 1
+     delay: 11
      ignore_errors: yes
    - name: Install lsb-release
      become: yes

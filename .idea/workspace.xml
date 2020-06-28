@@ -20,11 +20,11 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="35b860a5-e1cb-4a3a-8b70-800b9580d6a7" name="Default Changelist" comment="WIP: ansible galaxy">
-      <change afterPath="$PROJECT_DIR$/lnoad_init_playbook.yml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/ansible_steps.txt" beforeDir="false" afterPath="$PROJECT_DIR$/ansible_steps.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lnoad_init_playbook.yml" beforeDir="false" afterPath="$PROJECT_DIR$/lnoad_init_playbook.yml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/lnoad_playbook.yml" beforeDir="false" afterPath="$PROJECT_DIR$/lnoad_playbook.yml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/requirements.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/playbook_w_nginx_worked.yml" beforeDir="false" afterPath="$PROJECT_DIR$/playbook_w_nginx_worked.yml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/requirements.yml" beforeDir="false" afterPath="$PROJECT_DIR$/requirements.yml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -93,6 +93,9 @@
         <item itemvalue="Docker.u18" />
       </list>
     </recent_temporary>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
   </component>
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
@@ -165,10 +168,11 @@
       <screen x="0" y="0" width="1920" height="1054" />
     </state>
     <state x="640" y="230" width="634" height="595" key="RollbackChangesDialog/0.0.1920.1054@0.0.1920.1054" timestamp="1593063041346" />
-    <state x="434" y="163" key="SettingsEditor" timestamp="1593294360265">
-      <screen x="0" y="0" width="1920" height="1054" />
+    <state x="434" y="163" key="SettingsEditor" timestamp="1593319374993">
+      <screen x="0" y="0" width="1920" height="1056" />
     </state>
     <state x="434" y="163" key="SettingsEditor/0.0.1920.1054@0.0.1920.1054" timestamp="1593294360265" />
+    <state x="434" y="163" key="SettingsEditor/0.0.1920.1056@0.0.1920.1056" timestamp="1593319374993" />
     <state x="555" y="264" width="804" height="528" key="Vcs.Push.Dialog.v2" timestamp="1593063117747">
       <screen x="0" y="0" width="1920" height="1054" />
     </state>
