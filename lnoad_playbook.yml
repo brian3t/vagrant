@@ -29,7 +29,7 @@
      apt:
        name: git
        state: present
-       update_cache: yes
+       update_cache: no
    - git:
        repo: 'https://github.com/brian3t/fansconnectapp_api.git'
        dest: /var/www/lnoapi
