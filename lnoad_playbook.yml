@@ -25,3 +25,11 @@
      retries: 3
      delay: 1
      ignore_errors: yes
+   - name: Install git
+     apt:
+       name: git
+       state: present
+       update_cache: yes
+   - git:
+       repo: 'https://github.com/brian3t/fansconnectapp_api.git'
+       dest: /var/www/lnoapi
