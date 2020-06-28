@@ -9,3 +9,5 @@
 ### Ansible template
 *.retry
 
+collections/*
+!collections/requirements.yml

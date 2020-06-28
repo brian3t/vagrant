@@ -2,15 +2,10 @@
 - hosts: u18
   become: yes
   vars:
-   - docroot: /var/www/lnoapi
-   - php_version: '7.0'
-
-  collections:
-   - geerlingguy.php_roles
 
   roles:
-    - geerlingguy.php-versions
-   - { role: geerlingguy.php }
+   - weareinteractive.sudo
+   - { role: manala.vim }
 
   tasks:
    - name: Update all packages to the latest version
@@ -28,3 +23,9 @@
      retries: 3
      delay: 1
      ignore_errors: yes
+   - name: Install lsb-release
+     become: yes
+     become_user: root
+     apt:
+       name: lsb-release
+

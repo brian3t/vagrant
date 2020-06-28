@@ -1,0 +1,185 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="BranchesTreeState">
+    <expand>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="LOCAL_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="REMOTE_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="REMOTE_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="GROUP_NODE:origin" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+    </expand>
+    <select />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="35b860a5-e1cb-4a3a-8b70-800b9580d6a7" name="Default Changelist" comment="WIP: ansible galaxy">
+      <change afterPath="$PROJECT_DIR$/lnoad_init_playbook.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ansible_steps.txt" beforeDir="false" afterPath="$PROJECT_DIR$/ansible_steps.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lnoad_playbook.yml" beforeDir="false" afterPath="$PROJECT_DIR$/lnoad_playbook.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/requirements.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/requirements.yml" beforeDir="false" afterPath="$PROJECT_DIR$/requirements.yml" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="ComposerSettings">
+    <execution />
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="InvalidFacetManager">
+    <ignored-facets>
+      <facet id="vagrant/invalid/JRuby" />
+    </ignored-facets>
+  </component>
+  <component name="ProjectFrameBounds" extendedState="6">
+    <option name="x" value="240" />
+    <option name="y" value="132" />
+    <option name="width" value="1440" />
+    <option name="height" value="795" />
+  </component>
+  <component name="ProjectId" id="1dnQn2qBcDiNA7nOoWr7VoTgZF0" />
+  <component name="ProjectLevelVcsManager">
+    <OptionsSetting value="false" id="Update" />
+  </component>
+  <component name="ProjectViewState">
+    <option name="autoscrollFromSource" value="true" />
+    <option name="autoscrollToSource" value="true" />
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="nodejs_package_manager_path" value="npm" />
+    <property name="project.structure.last.edited" value="Modules" />
+    <property name="project.structure.proportion" value="0.0" />
+    <property name="project.structure.side.proportion" value="0.2" />
+    <property name="settings.editor.selected.configurable" value="preferences.keymap" />
+  </component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$" />
+    </key>
+  </component>
+  <component name="RunManager">
+    <configuration name="u18" type="docker-deploy" factoryName="docker-image" temporary="true" server-name="Docker">
+      <deployment type="docker-image">
+        <settings>
+          <option name="imageTag" value="ubuntu:18.04" />
+          <option name="command" value="" />
+          <option name="containerName" value="u18" />
+          <option name="entrypoint" value="" />
+          <option name="publishAllPorts" value="true" />
+          <option name="commandLineOptions" value="" />
+        </settings>
+      </deployment>
+      <method v="2" />
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Docker.u18" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="35b860a5-e1cb-4a3a-8b70-800b9580d6a7" name="Default Changelist" comment="" />
+      <created>1559492387332</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1559492387332</updated>
+    </task>
+    <task id="LOCAL-00001" summary="WIP: ansible galaxy">
+      <created>1593063109106</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1593063109107</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="2" />
+  </component>
+  <component name="UnknownFeatures">
+    <option featureType="com.intellij.facetType" implementationName="Python" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+    <option name="oldMeFiltersMigrated" value="true" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <option name="CHECK_CODE_SMELLS_BEFORE_PROJECT_COMMIT" value="false" />
+    <MESSAGE value="WIP: ansible galaxy" />
+    <option name="LAST_COMMIT_MESSAGE" value="WIP: ansible galaxy" />
+    <option name="OPTIMIZE_IMPORTS_BEFORE_PROJECT_COMMIT" value="true" />
+  </component>
+  <component name="WindowStateProjectService">
+    <state x="591" y="147" width="731" height="761" key="#Docker_Image" timestamp="1593059532436">
+      <screen x="0" y="0" width="1920" height="1054" />
+    </state>
+    <state x="591" y="147" width="731" height="761" key="#Docker_Image/0.0.1920.1054@0.0.1920.1054" timestamp="1593059532436" />
+    <state x="443" y="105" width="1028" height="845" key="#Project_Structure" timestamp="1593062125012">
+      <screen x="0" y="0" width="1920" height="1054" />
+    </state>
+    <state x="443" y="105" width="1028" height="845" key="#Project_Structure/0.0.1920.1054@0.0.1920.1054" timestamp="1593062125012" />
+    <state x="622" y="330" width="670" height="396" key="#com.intellij.fileTypes.FileTypeChooser" timestamp="1593060745673">
+      <screen x="0" y="0" width="1920" height="1054" />
+    </state>
+    <state x="622" y="330" width="670" height="396" key="#com.intellij.fileTypes.FileTypeChooser/0.0.1920.1054@0.0.1920.1054" timestamp="1593060745673" />
+    <state x="636" y="197" width="641" height="661" key="#com.intellij.ide.util.frameworkSupport.AddFrameworkSupportDialog" timestamp="1593062022258">
+      <screen x="0" y="0" width="1920" height="1054" />
+    </state>
+    <state x="636" y="197" width="641" height="661" key="#com.intellij.ide.util.frameworkSupport.AddFrameworkSupportDialog/0.0.1920.1054@0.0.1920.1054" timestamp="1593062022258" />
+    <state x="736" y="253" width="551" height="513" key="FileChooserDialogImpl" timestamp="1593062119783">
+      <screen x="0" y="0" width="1920" height="1054" />
+    </state>
+    <state x="736" y="253" width="551" height="513" key="FileChooserDialogImpl/0.0.1920.1054@0.0.1920.1054" timestamp="1593062119783" />
+    <state x="495" y="274" width="918" height="507" key="NewModule_or_Project.wizard" timestamp="1593062108965">
+      <screen x="0" y="0" width="1920" height="1054" />
+    </state>
+    <state x="495" y="274" width="918" height="507" key="NewModule_or_Project.wizard/0.0.1920.1054@0.0.1920.1054" timestamp="1593062108965" />
+    <state x="640" y="230" width="634" height="595" key="RollbackChangesDialog" timestamp="1593063041346">
+      <screen x="0" y="0" width="1920" height="1054" />
+    </state>
+    <state x="640" y="230" width="634" height="595" key="RollbackChangesDialog/0.0.1920.1054@0.0.1920.1054" timestamp="1593063041346" />
+    <state x="434" y="163" key="SettingsEditor" timestamp="1593294360265">
+      <screen x="0" y="0" width="1920" height="1054" />
+    </state>
+    <state x="434" y="163" key="SettingsEditor/0.0.1920.1054@0.0.1920.1054" timestamp="1593294360265" />
+    <state x="555" y="264" width="804" height="528" key="Vcs.Push.Dialog.v2" timestamp="1593063117747">
+      <screen x="0" y="0" width="1920" height="1054" />
+    </state>
+    <state x="555" y="264" width="804" height="528" key="Vcs.Push.Dialog.v2/0.0.1920.1054@0.0.1920.1054" timestamp="1593063117747" />
+    <state x="708" y="443" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2" timestamp="1593058557484">
+      <screen x="0" y="0" width="1920" height="1054" />
+    </state>
+    <state x="708" y="443" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2/0.0.1920.1054@0.0.1920.1054" timestamp="1593058557484" />
+    <state x="623" y="233" width="672" height="678" key="search.everywhere.popup" timestamp="1593293710554">
+      <screen x="0" y="0" width="1920" height="1054" />
+    </state>
+    <state x="623" y="233" width="672" height="678" key="search.everywhere.popup/0.0.1920.1054@0.0.1920.1054" timestamp="1593293710554" />
+  </component>
+</project>

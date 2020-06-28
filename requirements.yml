@@ -1,2 +1,5 @@
-collections:
-  - geerlingguy.php_roles
+# from galaxy
+- src: manala.vim
+- src: weareinteractive.sudo
+- src: geerlingguy.php
+- src: geerlingguy.php-versions
