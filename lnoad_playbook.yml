@@ -33,8 +33,17 @@
    - git:
        repo: 'https://github.com/brian3t/fansconnectapp_api.git'
        dest: /var/www/lnoapi
+   - name: Install php modules
+     apt:
+       name:
+         - php{{ php_version }}-zip
+       state: present
+       update_cache: no
    - name: Ansible copy file to remote server
-     copy:
-       src: ./lnoapi/db.php
-       dest: /var/www/lnoapi/config/
-
+     synchronize:
+       src: ./lnoapi/
+       dest: /var/www/lnoapi/
+       rsync_opts:
+         - --include=*/
+   - name: composer install
+     shell: "cd {{ docroot }} && composer install"

@@ -4,3 +4,4 @@
 - src: geerlingguy.php
 - src: geerlingguy.php-versions
 - src: weareinteractive.openssl
+- src: geerlingguy.composer

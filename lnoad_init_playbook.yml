@@ -6,6 +6,7 @@
    - weareinteractive.sudo
    - { role: manala.vim }
    - weareinteractive.openssl
+   - geerlingguy.composer
 
   tasks:
    - name: Update all packages to the latest version
@@ -28,8 +29,10 @@
      become_user: root
      apt:
        name: lsb-release
-   - name: Install telnet
+   - name: Install some apts
      become: yes
      apt:
-       name: telnet
+       name:
+        - telnet
+        - rsync
 

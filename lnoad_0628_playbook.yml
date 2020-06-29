@@ -3,11 +3,13 @@
   become: yes
   vars:
    - docroot: /var/www/lnoapi
+   - php_version: '7.3'
+
+  roles:
 
   tasks:
-   - name: Ansible copy file to remote server
-     copy:
-       src: ./lnoapi/db.php
-       dest: "{{ docroot }}/config/"
+    - name: Install php modules
+      apt:
+        name:
+          - php{{ php_version }}-zip
 
-   - debug: var=ansible_facts

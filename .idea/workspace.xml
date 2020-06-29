@@ -16,15 +16,22 @@
         <item name="GROUP_NODE:origin" type="e8cecc67:BranchNodeDescriptor" />
       </path>
     </expand>
-    <select />
+    <select>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="LOCAL_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+    </select>
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="35b860a5-e1cb-4a3a-8b70-800b9580d6a7" name="Default Changelist" comment="Git checkout done&#10;WIP: telnet, ping, php-mysql, change db config">
-      <change afterPath="$PROJECT_DIR$/lnoad_0628_playbook.yml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lnoapi/db.php" afterDir="false" />
+    <list default="true" id="35b860a5-e1cb-4a3a-8b70-800b9580d6a7" name="Default Changelist" comment="telnet done&#10;WIP: copy file to variable">
+      <change afterPath="$PROJECT_DIR$/lnoapi/config/params.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lnoad_0628_playbook.yml" beforeDir="false" afterPath="$PROJECT_DIR$/lnoad_0628_playbook.yml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/lnoad_init_playbook.yml" beforeDir="false" afterPath="$PROJECT_DIR$/lnoad_init_playbook.yml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/lnoad_playbook.yml" beforeDir="false" afterPath="$PROJECT_DIR$/lnoad_playbook.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lnoapi/db.php" beforeDir="false" afterPath="$PROJECT_DIR$/lnoapi/config/db.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/requirements.yml" beforeDir="false" afterPath="$PROJECT_DIR$/requirements.yml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -42,12 +49,6 @@
       <facet id="vagrant/invalid/JRuby" />
       <facet id="vagrant/invalid/Python" />
     </ignored-facets>
-  </component>
-  <component name="ProjectFrameBounds" extendedState="6">
-    <option name="x" value="240" />
-    <option name="y" value="132" />
-    <option name="width" value="1440" />
-    <option name="height" value="795" />
   </component>
   <component name="ProjectId" id="1dnQn2qBcDiNA7nOoWr7VoTgZF0" />
   <component name="ProjectLevelVcsManager">
@@ -72,6 +73,9 @@
     <property name="settings.editor.selected.configurable" value="preferences.keymap" />
   </component>
   <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/lnoapi/config" />
+    </key>
     <key name="CopyFile.RECENT_KEYS">
       <recent name="$PROJECT_DIR$" />
     </key>
@@ -121,7 +125,14 @@
       <option name="project" value="LOCAL" />
       <updated>1593359964235</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="telnet done&#10;WIP: copy file to variable">
+      <created>1593406320874</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1593406320874</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -146,7 +157,8 @@
     <option name="CHECK_CODE_SMELLS_BEFORE_PROJECT_COMMIT" value="false" />
     <MESSAGE value="WIP: ansible galaxy" />
     <MESSAGE value="Git checkout done&#10;WIP: telnet, ping, php-mysql, change db config" />
-    <option name="LAST_COMMIT_MESSAGE" value="Git checkout done&#10;WIP: telnet, ping, php-mysql, change db config" />
+    <MESSAGE value="telnet done&#10;WIP: copy file to variable" />
+    <option name="LAST_COMMIT_MESSAGE" value="telnet done&#10;WIP: copy file to variable" />
     <option name="OPTIMIZE_IMPORTS_BEFORE_PROJECT_COMMIT" value="true" />
   </component>
   <component name="WindowStateProjectService">
@@ -191,10 +203,10 @@
     </state>
     <state x="434" y="163" key="SettingsEditor/0.0.1920.1054@0.0.1920.1054" timestamp="1593294360265" />
     <state x="434" y="163" key="SettingsEditor/0.0.1920.1056@0.0.1920.1056" timestamp="1593319374993" />
-    <state x="740" y="354" width="804" height="528" key="Vcs.Push.Dialog.v2" timestamp="1593359965145">
-      <screen x="0" y="0" width="2560" height="1413" />
+    <state x="555" y="264" width="804" height="528" key="Vcs.Push.Dialog.v2" timestamp="1593406323177">
+      <screen x="0" y="0" width="1920" height="1054" />
     </state>
-    <state x="555" y="264" width="804" height="528" key="Vcs.Push.Dialog.v2/0.0.1920.1054@0.0.1920.1054" timestamp="1593063117747" />
+    <state x="555" y="264" width="804" height="528" key="Vcs.Push.Dialog.v2/0.0.1920.1054@0.0.1920.1054" timestamp="1593406323177" />
     <state x="740" y="354" key="Vcs.Push.Dialog.v2/0.0.2560.1413@0.0.2560.1413" timestamp="1593359965145" />
     <state x="708" y="443" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2" timestamp="1593058557484">
       <screen x="0" y="0" width="1920" height="1054" />
