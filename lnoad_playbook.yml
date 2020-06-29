@@ -33,3 +33,8 @@
    - git:
        repo: 'https://github.com/brian3t/fansconnectapp_api.git'
        dest: /var/www/lnoapi
+   - name: Ansible copy file to remote server
+     copy:
+       src: ./lnoapi/db.php
+       dest: /var/www/lnoapi/config/
+

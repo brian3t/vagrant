@@ -28,4 +28,8 @@
      become_user: root
      apt:
        name: lsb-release
+   - name: Install telnet
+     become: yes
+     apt:
+       name: telnet
 

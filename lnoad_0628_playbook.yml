@@ -1,0 +1,13 @@
+---
+- hosts: u18
+  become: yes
+  vars:
+   - docroot: /var/www/lnoapi
+
+  tasks:
+   - name: Ansible copy file to remote server
+     copy:
+       src: ./lnoapi/db.php
+       dest: "{{ docroot }}/config/"
+
+   - debug: var=ansible_facts

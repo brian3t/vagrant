@@ -19,7 +19,13 @@
     <select />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="35b860a5-e1cb-4a3a-8b70-800b9580d6a7" name="Default Changelist" comment="Git checkout done&#10;WIP: telnet, ping, php-mysql, change db config" />
+    <list default="true" id="35b860a5-e1cb-4a3a-8b70-800b9580d6a7" name="Default Changelist" comment="Git checkout done&#10;WIP: telnet, ping, php-mysql, change db config">
+      <change afterPath="$PROJECT_DIR$/lnoad_0628_playbook.yml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lnoapi/db.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lnoad_init_playbook.yml" beforeDir="false" afterPath="$PROJECT_DIR$/lnoad_init_playbook.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lnoad_playbook.yml" beforeDir="false" afterPath="$PROJECT_DIR$/lnoad_playbook.yml" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -172,6 +178,10 @@
       <screen x="0" y="0" width="1920" height="1054" />
     </state>
     <state x="495" y="274" width="918" height="507" key="NewModule_or_Project.wizard/0.0.1920.1054@0.0.1920.1054" timestamp="1593062108965" />
+    <state x="735" y="453" width="444" height="149" key="NewPhpFileDialog" timestamp="1593385917992">
+      <screen x="0" y="0" width="1920" height="1054" />
+    </state>
+    <state x="735" y="453" width="444" height="149" key="NewPhpFileDialog/0.0.1920.1054@0.0.1920.1054" timestamp="1593385917992" />
     <state x="640" y="230" width="634" height="595" key="RollbackChangesDialog" timestamp="1593063041346">
       <screen x="0" y="0" width="1920" height="1054" />
     </state>
