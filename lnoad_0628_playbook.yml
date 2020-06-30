@@ -8,8 +8,11 @@
   roles:
 
   tasks:
-    - name: Install php modules
+    - name: Install more php modules
       apt:
         name:
-          - php{{ php_version }}-zip
+          - php-mysql
+          - php{{ php_version }}-mysql
+        state: present
+        update_cache: no
 
