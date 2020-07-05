@@ -5,10 +5,6 @@
    - docroot: /var/www/lnoapi
    - php_version: '7.3'
 
-  roles:
-   - geerlingguy.php-versions
-   - geerlingguy.php
-
   tasks:
    - name: Update all packages to the latest version
      apt:

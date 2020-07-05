@@ -1,11 +1,13 @@
 ---
-- hosts: u18
+- hosts: u18,13.52.239.24
   vars:
 
   roles:
    - weareinteractive.sudo
-   - { role: manala.vim }
+   - manala.vim
    - weareinteractive.openssl
+   - geerlingguy.php-versions
+   - geerlingguy.php
    - geerlingguy.composer
 
   tasks:
