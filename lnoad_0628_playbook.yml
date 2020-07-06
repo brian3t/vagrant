@@ -1,5 +1,5 @@
 ---
-- hosts: u18
+- hosts: all
   become: yes
   vars:
    - docroot: /var/www/lnoapi
