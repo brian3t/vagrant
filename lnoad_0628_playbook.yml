@@ -1,5 +1,6 @@
 ---
 - hosts: all
+#- hosts: u18
   become: yes
   vars:
    - docroot: /var/www/lnoapi
@@ -8,11 +9,19 @@
   roles:
 
   tasks:
-    - name: Install more php modules
-      apt:
-        name:
-          - php-mysql
-          - php{{ php_version }}-mysql
+    - name: Ensure group ubuntu exists
+      group:
+        name: ubuntu
         state: present
-        update_cache: no
+    - name: Add user ubuntu
+      user:
+        name: ubuntu
+        groups: ubuntu,root
+        append: yes
+    - name: change owner
+      file:
+        path: '{{ docroot }}'
+        owner: ubuntu
+        group: ubuntu
+        recurse: yes
 

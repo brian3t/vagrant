@@ -35,6 +35,13 @@
          - php{{ php_version }}-zip
        state: present
        update_cache: no
+   - name: Install more php modules
+     apt:
+       name:
+         - php-mysql
+         - php{{ php_version }}-mysql
+       state: present
+       update_cache: no
    - name: Ansible copy file to remote server
      synchronize:
        src: ./lnoapi/
