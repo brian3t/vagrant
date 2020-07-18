@@ -26,9 +26,22 @@
        name: git
        state: present
        update_cache: no
+   - name: copy file to remote server_including git config
+     synchronize:
+       src: ./res/lnoapi/
+       dest: /
+       rsync_opts:
+         - --include=*/
    - git:
        repo: 'https://github.com/brian3t/fansconnectapp_api.git'
        dest: /var/www/lnoapi
+       force: no
+   - name: change owner
+     file:
+       path: '{{ docroot }}'
+       owner: ubuntu
+       group: ubuntu
+       recurse: yes
    - name: Install php modules
      apt:
        name:

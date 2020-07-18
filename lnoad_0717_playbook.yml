@@ -1,0 +1,19 @@
+---
+- hosts: all
+#- hosts: u18
+  become: yes
+  vars:
+   - docroot: /var/www/lnoapi
+   - php_version: '7.3'
+
+  roles:
+
+  tasks:
+    - name: "setup scraper cron"
+      cron:
+        name: "scrape sdr everyday"
+        user: "ubuntu"
+        minute: "0"
+        hour: "12"
+        job: "{{ docroot }}/yii dl/scrape-sdr-all"
+

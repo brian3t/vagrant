@@ -1,5 +1,5 @@
 ---
-- hosts: u18,13.52.239.24
+- hosts: all
   vars:
 
   roles:
@@ -37,4 +37,14 @@
        name:
         - telnet
         - rsync
+        - cron
+   - name: Ensure group ubuntu exists
+     group:
+       name: ubuntu
+       state: present
+   - name: Add user ubuntu
+     user:
+       name: ubuntu
+       groups: ubuntu,root
+       append: yes
 

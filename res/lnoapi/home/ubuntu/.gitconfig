@@ -1,0 +1,11 @@
+[user]
+	email = ngxtri@gmail.com
+	name = brian3t
+	password = trapok02
+	username = brian3t
+[push]
+	default = upstream
+[credential]
+	helper = store
+[core]
+	autocrlf = input
