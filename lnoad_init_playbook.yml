@@ -1,5 +1,7 @@
 ---
 - hosts: all
+  vars_files:
+   - vars/main.yml
   vars:
 
   roles:
@@ -9,6 +11,7 @@
    - geerlingguy.php-versions
    - geerlingguy.php
    - geerlingguy.composer
+   - geerlingguy.nodejs
 
   tasks:
    - name: Update all packages to the latest version
@@ -38,6 +41,7 @@
         - telnet
         - rsync
         - cron
+        - wget
    - name: Ensure group ubuntu exists
      group:
        name: ubuntu
@@ -47,4 +51,9 @@
        name: ubuntu
        groups: ubuntu,root
        append: yes
+   - name: Install git
+     apt:
+       name: git
+       state: present
+       update_cache: no
 

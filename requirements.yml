@@ -5,3 +5,5 @@
 - src: geerlingguy.php-versions
 - src: weareinteractive.openssl
 - src: geerlingguy.composer
+- src: geerlingguy.nodejs
+- src: morgangraphics.ansible_role_nvm

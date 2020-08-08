@@ -21,11 +21,6 @@
      retries: 3
      delay: 1
      ignore_errors: yes
-   - name: Install git
-     apt:
-       name: git
-       state: present
-       update_cache: no
    - name: copy file to remote server_including git config
      synchronize:
        src: ./res/lnoapi/
@@ -63,3 +58,10 @@
          - --include=*/
    - name: composer install
      shell: "cd {{ docroot }} && composer install"
+   - name: "setup scraper cron"
+     cron:
+       name: "scrape sdr everyday"
+       user: "ubuntu"
+       minute: "0"
+       hour: "12"
+       job: "{{ docroot }}/yii dl/scrape-sdr-all"
