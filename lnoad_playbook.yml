@@ -1,23 +1,28 @@
 ---
 - hosts: all
   become: yes
-  become_user: ubuntu
+  become_user: "{{ user }}"
+  vars_files:
+    - vars/main.yml
   vars:
-   - docroot: /var/www/lnoapi
-   - php_version: '7.3'
+  roles:
+   - role: morgangraphics.ansible_role_nvm
+     nodejs_version: '{{ node_version }}'
+     nvm_commands:
+       - "nvm exec default npm install"
 
   tasks:
    - name: copy file to remote server_including git config
      synchronize:
        src: ./res/lnoapi/
-       dest: /
+       dest: "/home/{{ user }}"
        rsync_opts:
          - --include=*/
    - git:
        repo: 'https://github.com/brian3t/fansconnectapp_api.git'
        dest: /var/www/lnoapi
        force: no
-    - name: Ansible copy file to remote server
+   - name: Ansible copy lnoapi project files to remote server
      synchronize:
        src: ./lnoapi/
        dest: /var/www/lnoapi/
@@ -32,3 +37,9 @@
        minute: "0"
        hour: "12"
        job: "{{ docroot }}/yii dl/scrape-sdr-all"
+   - name: install global package
+     environment:
+       PATH: "{{ node_home }}/bin:{{ ansible_env.PATH }}"
+     npm:
+       name: node-sass
+       global: yes

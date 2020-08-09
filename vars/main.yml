@@ -5,3 +5,5 @@ nodejs_install_npm_user: "{{ user }}"
 node_version: "12.18.3"
 node_home: "/home/{{ user }}/.nvm/versions/node/v{{ node_version }}"
 adon_root: "/var/www/lnoad"
+docroot: /var/www/lnoapi
+php_version: '7.3'

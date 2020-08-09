@@ -16,21 +16,19 @@
         <item name="GROUP_NODE:origin" type="e8cecc67:BranchNodeDescriptor" />
       </path>
     </expand>
-    <select>
-      <path>
-        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
-        <item name="LOCAL_ROOT" type="e8cecc67:BranchNodeDescriptor" />
-      </path>
-    </select>
+    <select />
   </component>
   <component name="ChangeListManager">
     <list default="true" id="35b860a5-e1cb-4a3a-8b70-800b9580d6a7" name="Default Changelist" comment="working on nodejs nvm">
-      <change afterPath="$PROJECT_DIR$/lnoad/.env" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lnoad_0808_playbook.yml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/lnoad_0717_playbook.yml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ansible_steps.txt" beforeDir="false" afterPath="$PROJECT_DIR$/ansible_steps.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/invaws" beforeDir="false" afterPath="$PROJECT_DIR$/invaws" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lnoad/.env" beforeDir="false" afterPath="$PROJECT_DIR$/lnoad/.env" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/lnoad_init_playbook.yml" beforeDir="false" afterPath="$PROJECT_DIR$/lnoad_init_playbook.yml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/lnoad_playbook.yml" beforeDir="false" afterPath="$PROJECT_DIR$/lnoad_playbook.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/requirements.yml" beforeDir="false" afterPath="$PROJECT_DIR$/requirements.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/res/lnoapi/home/ubuntu/.gitconfig" beforeDir="false" afterPath="$PROJECT_DIR$/res/lnoapi/.gitconfig" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/res/lnoapi/root/.gitconfig" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/vars/main.yml" beforeDir="false" afterPath="$PROJECT_DIR$/vars/main.yml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -79,14 +77,14 @@
     <property name="settings.editor.selected.configurable" value="preferences.pluginManager" />
   </component>
   <component name="RecentsManager">
-    <key name="MoveFile.RECENT_KEYS">
-      <recent name="$PROJECT_DIR$/res/lnoapi/root" />
-      <recent name="$PROJECT_DIR$/res/lnoapi" />
-      <recent name="$PROJECT_DIR$/lnoapi/config" />
-    </key>
     <key name="CopyFile.RECENT_KEYS">
       <recent name="$PROJECT_DIR$/res/lnoapi/home/ubuntu" />
       <recent name="$PROJECT_DIR$" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/res/lnoapi" />
+      <recent name="$PROJECT_DIR$/res/lnoapi/root" />
+      <recent name="$PROJECT_DIR$/lnoapi/config" />
     </key>
   </component>
   <component name="RunManager">
@@ -313,14 +311,19 @@
     <state x="740" y="354" key="Vcs.Push.Dialog.v2/0.0.2560.1413@0.0.2560.1413" timestamp="1593359965145" />
     <state x="740" y="355" width="800" height="524" key="Vcs.Push.Dialog.v2/0.0.2560.1416@0.0.2560.1416" timestamp="1594092792097" />
     <state x="740" y="355" key="Vcs.Push.Dialog.v2/0.0.2560.1417@0.0.2560.1417" timestamp="1595040349259" />
+    <state x="98" y="100" width="2364" height="1215" key="com.intellij.history.integration.ui.views.FileHistoryDialog" timestamp="1596988895105">
+      <screen x="0" y="0" width="2560" height="1413" />
+    </state>
+    <state x="98" y="100" width="2364" height="1215" key="com.intellij.history.integration.ui.views.FileHistoryDialog/0.0.2560.1413@0.0.2560.1413" timestamp="1596988895105" />
     <state x="708" y="443" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2" timestamp="1593058557484">
       <screen x="0" y="0" width="1920" height="1054" />
     </state>
     <state x="708" y="443" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2/0.0.1920.1054@0.0.1920.1054" timestamp="1593058557484" />
-    <state x="641" y="267" width="810" height="522" key="find.popup" timestamp="1596909600452">
-      <screen x="0" y="0" width="1920" height="1057" />
+    <state x="855" y="357" width="1080" height="698" key="find.popup" timestamp="1596989046137">
+      <screen x="0" y="0" width="2560" height="1413" />
     </state>
     <state x="641" y="267" width="810" height="522" key="find.popup/0.0.1920.1057@0.0.1920.1057" timestamp="1596909600452" />
+    <state x="855" y="357" width="1080" height="698" key="find.popup/0.0.2560.1413@0.0.2560.1413" timestamp="1596989046137" />
     <state x="623" y="234" width="672" height="681" key="search.everywhere.popup" timestamp="1596852003182">
       <screen x="0" y="0" width="1920" height="1057" />
     </state>
