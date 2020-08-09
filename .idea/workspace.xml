@@ -19,17 +19,9 @@
     <select />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="35b860a5-e1cb-4a3a-8b70-800b9580d6a7" name="Default Changelist" comment="working on nodejs nvm">
+    <list default="true" id="35b860a5-e1cb-4a3a-8b70-800b9580d6a7" name="Default Changelist" comment="minor fixes">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ansible_steps.txt" beforeDir="false" afterPath="$PROJECT_DIR$/ansible_steps.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/invaws" beforeDir="false" afterPath="$PROJECT_DIR$/invaws" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/lnoad/.env" beforeDir="false" afterPath="$PROJECT_DIR$/lnoad/.env" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/lnoad_init_playbook.yml" beforeDir="false" afterPath="$PROJECT_DIR$/lnoad_init_playbook.yml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/lnoad_playbook.yml" beforeDir="false" afterPath="$PROJECT_DIR$/lnoad_playbook.yml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/requirements.yml" beforeDir="false" afterPath="$PROJECT_DIR$/requirements.yml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/res/lnoapi/home/ubuntu/.gitconfig" beforeDir="false" afterPath="$PROJECT_DIR$/res/lnoapi/.gitconfig" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/res/lnoapi/root/.gitconfig" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/vars/main.yml" beforeDir="false" afterPath="$PROJECT_DIR$/vars/main.yml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -182,7 +174,14 @@
       <option name="project" value="LOCAL" />
       <updated>1596863892939</updated>
     </task>
-    <option name="localTasksCounter" value="10" />
+    <task id="LOCAL-00010" summary="minor fixes">
+      <created>1596992522346</created>
+      <option name="number" value="00010" />
+      <option name="presentableId" value="LOCAL-00010" />
+      <option name="project" value="LOCAL" />
+      <updated>1596992522346</updated>
+    </task>
+    <option name="localTasksCounter" value="11" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -214,7 +213,8 @@
     <MESSAGE value="- change owner to ubuntu (for AWS)&#10;- scraper for lnoapi ready. Todo future: set cronjob" />
     <MESSAGE value="added cronjob&#10;all jobs are for ubuntu only&#10;added git.config as a file" />
     <MESSAGE value="working on nodejs nvm" />
-    <option name="LAST_COMMIT_MESSAGE" value="working on nodejs nvm" />
+    <MESSAGE value="minor fixes" />
+    <option name="LAST_COMMIT_MESSAGE" value="minor fixes" />
     <option name="OPTIMIZE_IMPORTS_BEFORE_PROJECT_COMMIT" value="true" />
   </component>
   <component name="WindowStateProjectService">
@@ -302,13 +302,13 @@
       <screen x="0" y="0" width="2560" height="1416" />
     </state>
     <state width="576" height="446" key="SwitcherDM/0.0.2560.1416@0.0.2560.1416" timestamp="1594091873410" />
-    <state x="555" y="265" width="800" height="524" key="Vcs.Push.Dialog.v2" timestamp="1596863894317">
-      <screen x="0" y="0" width="1920" height="1057" />
+    <state x="740" y="354" width="804" height="528" key="Vcs.Push.Dialog.v2" timestamp="1596992523219">
+      <screen x="0" y="0" width="2560" height="1413" />
     </state>
     <state x="555" y="264" width="804" height="528" key="Vcs.Push.Dialog.v2/0.0.1920.1054@0.0.1920.1054" timestamp="1593406323177" />
     <state x="555" y="265" key="Vcs.Push.Dialog.v2/0.0.1920.1056@0.0.1920.1056" timestamp="1594003617916" />
     <state x="555" y="265" key="Vcs.Push.Dialog.v2/0.0.1920.1057@0.0.1920.1057" timestamp="1596863894317" />
-    <state x="740" y="354" key="Vcs.Push.Dialog.v2/0.0.2560.1413@0.0.2560.1413" timestamp="1593359965145" />
+    <state x="740" y="354" width="804" height="528" key="Vcs.Push.Dialog.v2/0.0.2560.1413@0.0.2560.1413" timestamp="1596992523219" />
     <state x="740" y="355" width="800" height="524" key="Vcs.Push.Dialog.v2/0.0.2560.1416@0.0.2560.1416" timestamp="1594092792097" />
     <state x="740" y="355" key="Vcs.Push.Dialog.v2/0.0.2560.1417@0.0.2560.1417" timestamp="1595040349259" />
     <state x="98" y="100" width="2364" height="1215" key="com.intellij.history.integration.ui.views.FileHistoryDialog" timestamp="1596988895105">

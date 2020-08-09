@@ -14,7 +14,7 @@
     - git:
         repo: 'https://github.com/brian3t/adonis.git'
         dest: "{{ adon_root }}"
-        force: no
+        force: yes
     - name: npm install
       environment:
         PATH: "{{ node_home }}/bin:{{ ansible_env.PATH }}"

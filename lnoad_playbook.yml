@@ -21,7 +21,7 @@
    - git:
        repo: 'https://github.com/brian3t/fansconnectapp_api.git'
        dest: /var/www/lnoapi
-       force: no
+       force: yes
    - name: Ansible copy lnoapi project files to remote server
      synchronize:
        src: ./lnoapi/
