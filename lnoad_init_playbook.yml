@@ -12,6 +12,12 @@
    - geerlingguy.php
    - geerlingguy.composer
    - geerlingguy.nodejs
+   - role: morgangraphics.ansible_role_nvm
+     become: yes
+     become_user: '{{ user }}'
+     nodejs_version: '{{ node_version }}'
+     nvm_commands:
+       - "nvm exec default npm install"
 
   tasks:
    - name: Update all packages to the latest version
@@ -38,10 +44,13 @@
      become: yes
      apt:
        name:
+        - bash
         - telnet
         - rsync
         - cron
         - wget
+        - curl
+        - build-essential
    - name: Ensure group ubuntu exists
      group:
        name: ubuntu
@@ -51,9 +60,34 @@
        name: ubuntu
        groups: ubuntu,root
        append: yes
+       shell: /bin/bash
    - name: Install git
      apt:
        name: git
        state: present
        update_cache: no
-
+   - name: install global package
+     environment:
+       PATH: "{{ node_home }}/bin:{{ ansible_env.PATH }}"
+     npm:
+       name: node-sass
+       global: yes
+   - name: Install php modules
+     apt:
+       name:
+         - php{{ php_version }}-zip
+       state: present
+       update_cache: no
+   - name: Install more php modules
+     apt:
+       name:
+         - php-mysql
+         - php{{ php_version }}-mysql
+       state: present
+       update_cache: no
+   - name: change owner
+     file:
+       path: '/var/www'
+       owner: ubuntu
+       group: ubuntu
+       recurse: yes

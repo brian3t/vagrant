@@ -1,3 +1,7 @@
+user: "ubuntu"
 nodejs_npm_global_packages:
   - name: node-sass
-nodejs_install_npm_user: "ubuntu"
+nodejs_install_npm_user: "{{ user }}"
+node_version: "12.18.3"
+node_home: "/home/{{ user }}/.nvm/versions/node/v{{ node_version }}"
+adon_root: "/var/www/lnoad"

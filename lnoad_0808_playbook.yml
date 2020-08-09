@@ -1,0 +1,30 @@
+---
+- hosts: all
+  become: true
+  become_user: ubuntu
+  vars_files:
+    - vars/main.yml
+
+  vars:
+   - docroot: /var/www/lnoapi
+   - php_version: '7.3'
+
+  roles:
+  tasks:
+    - git:
+        repo: 'https://github.com/brian3t/adonis.git'
+        dest: "{{ adon_root }}"
+        force: no
+    - name: npm install
+      environment:
+        PATH: "{{ node_home }}/bin:{{ ansible_env.PATH }}"
+      shell: "cd {{ adon_root }} && npm install"
+    - name: Ansible copy lnoad file to remote server
+      synchronize:
+        src: ./lnoad/
+        dest: /var/www/lnoad/
+        rsync_opts:
+          - --include=*/
+
+
+
