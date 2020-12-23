@@ -1,0 +1,3 @@
+[craft]
+13.52.221.206 ansible_connection=ssh ansible_user=ubuntu ansible_ssh_private_key_file="/home/tri/tmp/mega/projects/craft/craftbelaws.pem" ansible_become=true
+

@@ -1,6 +1,7 @@
 # from galaxy
 - src: manala.vim
 - src: weareinteractive.sudo
+- src: geerlingguy.apache
 - src: geerlingguy.php
 - src: geerlingguy.php-versions
 - src: weareinteractive.openssl

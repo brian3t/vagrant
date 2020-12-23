@@ -8,6 +8,7 @@
    - weareinteractive.sudo
    - manala.vim
    - weareinteractive.openssl
+   - geerlingguy.apache
    - geerlingguy.php-versions
    - geerlingguy.php
    - geerlingguy.composer
