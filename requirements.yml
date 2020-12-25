@@ -7,3 +7,4 @@
 - src: weareinteractive.openssl
 - src: geerlingguy.composer
 - src: morgangraphics.ansible_role_nvm
+- src: geerlingguy.phpmyadmin

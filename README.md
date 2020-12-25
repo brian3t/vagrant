@@ -19,3 +19,7 @@ ansible-playbook lnoad_playbook.yml -i inventory
 
 notes:
 - if nvm fails: edit roles/morgangraphics.ansible_role_nvm/tasks/nvm.yml , make sure {{ profile }} has ~/ in front of it
+- for geerlingguy.mysql: remove the task: `Disallow root login remotely`, task `Get list of hosts for the anonymous user`, task
+`Remove MySQL test database`
+
+

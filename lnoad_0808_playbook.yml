@@ -1,6 +1,6 @@
 ---
 - hosts: all
-  become: true
+  become: yes
   become_user: ubuntu
   vars_files:
     - vars/main.yml

@@ -71,6 +71,8 @@
      apt:
        name:
          - php-mysql
+         - php-mbstring
+         - php-xml
          - php{{ php_version }}-mysql
        state: present
        update_cache: no

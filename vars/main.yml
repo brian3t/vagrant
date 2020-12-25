@@ -7,3 +7,11 @@ node_home: "/home/{{ user }}/.nvm/versions/node/v{{ node_version }}"
 adon_root: "/var/www/lnoad"
 docroot: /var/www/lnoapi
 php_version: '7.3'
+php_default_version_debian: "7.3"
+phpmyadmin_mysql_user: root
+mysql_root_username: root
+mysql_root_password: "Trapok)1"
+phpmyadmin_mysql_password: "{{ mysql_root_password }}"
+mysql_user_home: /root
+mysql_user_name: root
+mysql_user_password: "Trapok)1"

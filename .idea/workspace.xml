@@ -19,9 +19,16 @@
     <select />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="35b860a5-e1cb-4a3a-8b70-800b9580d6a7" name="Default Changelist" comment="minor fixes">
+    <list default="true" id="35b860a5-e1cb-4a3a-8b70-800b9580d6a7" name="Default Changelist" comment="force git">
+      <change afterPath="$PROJECT_DIR$/specific_roles_1225.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/dataSources.local.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/dataSources.local.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/dataSources.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/dataSources.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/lnoad_playbook.yml" beforeDir="false" afterPath="$PROJECT_DIR$/lnoad_playbook.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lnoad_0808_playbook.yml" beforeDir="false" afterPath="$PROJECT_DIR$/lnoad_0808_playbook.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lnoad_init_playbook.yml" beforeDir="false" afterPath="$PROJECT_DIR$/lnoad_init_playbook.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/requirements.yml" beforeDir="false" afterPath="$PROJECT_DIR$/requirements.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/vars/main.yml" beforeDir="false" afterPath="$PROJECT_DIR$/vars/main.yml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -33,6 +40,7 @@
   </component>
   <component name="DatabaseLocalColorSettings">
     <colors>
+      <entry key="98560043-dafb-4e4f-a9de-34c5b2ce4102" value="Yellow" />
       <entry key="lno/ed69ec35-a937-43d4-be4b-2fb033a35124:SCHEMA" value="Blue" />
     </colors>
   </component>
@@ -61,7 +69,7 @@
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/res/lnoapi/home/ubuntu" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="nodejs_package_manager_path" value="npm" />
     <property name="project.structure.last.edited" value="Modules" />
     <property name="project.structure.proportion" value="0.0" />
@@ -70,8 +78,8 @@
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
-      <recent name="$PROJECT_DIR$/res/lnoapi/home/ubuntu" />
       <recent name="$PROJECT_DIR$" />
+      <recent name="$PROJECT_DIR$/res/lnoapi/home/ubuntu" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
       <recent name="$PROJECT_DIR$/res/lnoapi" />
@@ -181,7 +189,14 @@
       <option name="project" value="LOCAL" />
       <updated>1596992522346</updated>
     </task>
-    <option name="localTasksCounter" value="11" />
+    <task id="LOCAL-00011" summary="force git">
+      <created>1596993357403</created>
+      <option name="number" value="00011" />
+      <option name="presentableId" value="LOCAL-00011" />
+      <option name="project" value="LOCAL" />
+      <updated>1596993357403</updated>
+    </task>
+    <option name="localTasksCounter" value="12" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -214,121 +229,8 @@
     <MESSAGE value="added cronjob&#10;all jobs are for ubuntu only&#10;added git.config as a file" />
     <MESSAGE value="working on nodejs nvm" />
     <MESSAGE value="minor fixes" />
-    <option name="LAST_COMMIT_MESSAGE" value="minor fixes" />
+    <MESSAGE value="force git" />
+    <option name="LAST_COMMIT_MESSAGE" value="force git" />
     <option name="OPTIMIZE_IMPORTS_BEFORE_PROJECT_COMMIT" value="true" />
-  </component>
-  <component name="WindowStateProjectService">
-    <state x="591" y="147" width="731" height="761" key="#Docker_Image" timestamp="1593059532436">
-      <screen x="0" y="0" width="1920" height="1054" />
-    </state>
-    <state x="591" y="147" width="731" height="761" key="#Docker_Image/0.0.1920.1054@0.0.1920.1054" timestamp="1593059532436" />
-    <state x="589" y="209" width="732" height="633" key="#Inspections" timestamp="1593888868316">
-      <screen x="0" y="0" width="1920" height="1056" />
-    </state>
-    <state x="589" y="209" width="732" height="633" key="#Inspections/0.0.1920.1056@0.0.1920.1056" timestamp="1593888868316" />
-    <state x="443" y="105" width="1028" height="845" key="#Project_Structure" timestamp="1593062125012">
-      <screen x="0" y="0" width="1920" height="1054" />
-    </state>
-    <state x="443" y="105" width="1028" height="845" key="#Project_Structure/0.0.1920.1054@0.0.1920.1054" timestamp="1593062125012" />
-    <state x="875" y="369" width="810" height="681" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1593968837568">
-      <screen x="0" y="0" width="2560" height="1416" />
-    </state>
-    <state x="875" y="368" width="810" height="681" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.0.2560.1413@0.0.2560.1413" timestamp="1593359904164" />
-    <state x="875" y="369" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.0.2560.1416@0.0.2560.1416" timestamp="1593968837568" />
-    <state x="829" y="443" width="670" height="396" key="#com.intellij.fileTypes.FileTypeChooser" timestamp="1593969829643">
-      <screen x="0" y="0" width="2560" height="1416" />
-    </state>
-    <state x="622" y="330" width="670" height="396" key="#com.intellij.fileTypes.FileTypeChooser/0.0.1920.1054@0.0.1920.1054" timestamp="1593060745673" />
-    <state x="829" y="443" key="#com.intellij.fileTypes.FileTypeChooser/0.0.2560.1416@0.0.2560.1416" timestamp="1593969829643" />
-    <state x="636" y="197" width="641" height="661" key="#com.intellij.ide.util.frameworkSupport.AddFrameworkSupportDialog" timestamp="1593062022258">
-      <screen x="0" y="0" width="1920" height="1054" />
-    </state>
-    <state x="636" y="197" width="641" height="661" key="#com.intellij.ide.util.frameworkSupport.AddFrameworkSupportDialog/0.0.1920.1054@0.0.1920.1054" timestamp="1593062022258" />
-    <state width="254" height="195" key="DatabaseViewActions_Filter" timestamp="1593968853779">
-      <screen x="0" y="0" width="2560" height="1416" />
-    </state>
-    <state width="254" height="195" key="DatabaseViewActions_Filter/0.0.2560.1416@0.0.2560.1416" timestamp="1593968853779" />
-    <state x="736" y="253" width="551" height="513" key="FileChooserDialogImpl" timestamp="1593062119783">
-      <screen x="0" y="0" width="1920" height="1054" />
-    </state>
-    <state x="736" y="253" width="551" height="513" key="FileChooserDialogImpl/0.0.1920.1054@0.0.1920.1054" timestamp="1593062119783" />
-    <state width="1558" height="291" key="GridCell.Tab.0.bottom" timestamp="1596933914572">
-      <screen x="0" y="0" width="1920" height="1057" />
-    </state>
-    <state width="1289" height="407" key="GridCell.Tab.0.bottom/0.0.1920.1056@0.0.1920.1056" timestamp="1594003568114" />
-    <state width="1558" height="291" key="GridCell.Tab.0.bottom/0.0.1920.1057@0.0.1920.1057" timestamp="1596933914572" />
-    <state width="1737" height="585" key="GridCell.Tab.0.bottom/0.0.2560.1416@0.0.2560.1416" timestamp="1594091916189" />
-    <state width="1558" height="291" key="GridCell.Tab.0.center" timestamp="1596933914571">
-      <screen x="0" y="0" width="1920" height="1057" />
-    </state>
-    <state width="1289" height="407" key="GridCell.Tab.0.center/0.0.1920.1056@0.0.1920.1056" timestamp="1594003568113" />
-    <state width="1558" height="291" key="GridCell.Tab.0.center/0.0.1920.1057@0.0.1920.1057" timestamp="1596933914571" />
-    <state width="1737" height="585" key="GridCell.Tab.0.center/0.0.2560.1416@0.0.2560.1416" timestamp="1594091916187" />
-    <state width="1558" height="291" key="GridCell.Tab.0.left" timestamp="1596933914570">
-      <screen x="0" y="0" width="1920" height="1057" />
-    </state>
-    <state width="1289" height="407" key="GridCell.Tab.0.left/0.0.1920.1056@0.0.1920.1056" timestamp="1594003568111" />
-    <state width="1558" height="291" key="GridCell.Tab.0.left/0.0.1920.1057@0.0.1920.1057" timestamp="1596933914570" />
-    <state width="1737" height="585" key="GridCell.Tab.0.left/0.0.2560.1416@0.0.2560.1416" timestamp="1594091916184" />
-    <state width="1558" height="291" key="GridCell.Tab.0.right" timestamp="1596933914572">
-      <screen x="0" y="0" width="1920" height="1057" />
-    </state>
-    <state width="1289" height="407" key="GridCell.Tab.0.right/0.0.1920.1056@0.0.1920.1056" timestamp="1594003568113" />
-    <state width="1558" height="291" key="GridCell.Tab.0.right/0.0.1920.1057@0.0.1920.1057" timestamp="1596933914572" />
-    <state width="1737" height="585" key="GridCell.Tab.0.right/0.0.2560.1416@0.0.2560.1416" timestamp="1594091916188" />
-    <state width="358" height="501" key="HiddenNamespacesPopup" timestamp="1593968845190">
-      <screen x="0" y="0" width="2560" height="1416" />
-    </state>
-    <state width="358" height="501" key="HiddenNamespacesPopup/0.0.2560.1416@0.0.2560.1416" timestamp="1593968845190" />
-    <state x="495" y="274" width="918" height="507" key="NewModule_or_Project.wizard" timestamp="1593062108965">
-      <screen x="0" y="0" width="1920" height="1054" />
-    </state>
-    <state x="495" y="274" width="918" height="507" key="NewModule_or_Project.wizard/0.0.1920.1054@0.0.1920.1054" timestamp="1593062108965" />
-    <state x="735" y="453" width="444" height="149" key="NewPhpFileDialog" timestamp="1593385917992">
-      <screen x="0" y="0" width="1920" height="1054" />
-    </state>
-    <state x="735" y="453" width="444" height="149" key="NewPhpFileDialog/0.0.1920.1054@0.0.1920.1054" timestamp="1593385917992" />
-    <state x="640" y="230" width="634" height="595" key="RollbackChangesDialog" timestamp="1593063041346">
-      <screen x="0" y="0" width="1920" height="1054" />
-    </state>
-    <state x="640" y="230" width="634" height="595" key="RollbackChangesDialog/0.0.1920.1054@0.0.1920.1054" timestamp="1593063041346" />
-    <state x="434" y="163" key="SettingsEditor" timestamp="1596857766981">
-      <screen x="0" y="0" width="1920" height="1057" />
-    </state>
-    <state x="434" y="163" key="SettingsEditor/0.0.1920.1054@0.0.1920.1054" timestamp="1593294360265" />
-    <state x="434" y="163" key="SettingsEditor/0.0.1920.1056@0.0.1920.1056" timestamp="1593888889010" />
-    <state x="434" y="163" key="SettingsEditor/0.0.1920.1057@0.0.1920.1057" timestamp="1596857766981" />
-    <state width="576" height="446" key="SwitcherDM" timestamp="1594091873410">
-      <screen x="0" y="0" width="2560" height="1416" />
-    </state>
-    <state width="576" height="446" key="SwitcherDM/0.0.2560.1416@0.0.2560.1416" timestamp="1594091873410" />
-    <state x="740" y="354" width="804" height="528" key="Vcs.Push.Dialog.v2" timestamp="1596992523219">
-      <screen x="0" y="0" width="2560" height="1413" />
-    </state>
-    <state x="555" y="264" width="804" height="528" key="Vcs.Push.Dialog.v2/0.0.1920.1054@0.0.1920.1054" timestamp="1593406323177" />
-    <state x="555" y="265" key="Vcs.Push.Dialog.v2/0.0.1920.1056@0.0.1920.1056" timestamp="1594003617916" />
-    <state x="555" y="265" key="Vcs.Push.Dialog.v2/0.0.1920.1057@0.0.1920.1057" timestamp="1596863894317" />
-    <state x="740" y="354" width="804" height="528" key="Vcs.Push.Dialog.v2/0.0.2560.1413@0.0.2560.1413" timestamp="1596992523219" />
-    <state x="740" y="355" width="800" height="524" key="Vcs.Push.Dialog.v2/0.0.2560.1416@0.0.2560.1416" timestamp="1594092792097" />
-    <state x="740" y="355" key="Vcs.Push.Dialog.v2/0.0.2560.1417@0.0.2560.1417" timestamp="1595040349259" />
-    <state x="98" y="100" width="2364" height="1215" key="com.intellij.history.integration.ui.views.FileHistoryDialog" timestamp="1596988895105">
-      <screen x="0" y="0" width="2560" height="1413" />
-    </state>
-    <state x="98" y="100" width="2364" height="1215" key="com.intellij.history.integration.ui.views.FileHistoryDialog/0.0.2560.1413@0.0.2560.1413" timestamp="1596988895105" />
-    <state x="708" y="443" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2" timestamp="1593058557484">
-      <screen x="0" y="0" width="1920" height="1054" />
-    </state>
-    <state x="708" y="443" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2/0.0.1920.1054@0.0.1920.1054" timestamp="1593058557484" />
-    <state x="855" y="357" width="1080" height="698" key="find.popup" timestamp="1596989046137">
-      <screen x="0" y="0" width="2560" height="1413" />
-    </state>
-    <state x="641" y="267" width="810" height="522" key="find.popup/0.0.1920.1057@0.0.1920.1057" timestamp="1596909600452" />
-    <state x="855" y="357" width="1080" height="698" key="find.popup/0.0.2560.1413@0.0.2560.1413" timestamp="1596989046137" />
-    <state x="623" y="234" width="672" height="681" key="search.everywhere.popup" timestamp="1596852003182">
-      <screen x="0" y="0" width="1920" height="1057" />
-    </state>
-    <state x="623" y="233" width="672" height="678" key="search.everywhere.popup/0.0.1920.1054@0.0.1920.1054" timestamp="1593293710554" />
-    <state x="623" y="234" width="672" height="681" key="search.everywhere.popup/0.0.1920.1057@0.0.1920.1057" timestamp="1596852003182" />
-    <state x="831" y="313" width="896" height="911" key="search.everywhere.popup/0.0.2560.1416@0.0.2560.1416" timestamp="1594092081813" />
   </component>
 </project>
