@@ -75,6 +75,7 @@
    - name: Install more php modules
      apt:
        name:
+         - php-curl
          - php-mysql
          - php-mbstring
          - php-xml
