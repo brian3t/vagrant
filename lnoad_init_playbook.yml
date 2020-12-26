@@ -61,6 +61,11 @@
        name: git
        state: present
        update_cache: no
+ #Apache Configuration
+   - name: Install LAMP Packages
+     apt: name={{ item }} update_cache=yes state=latest
+     loop: [ 'apache2', 'mysql-server', 'python3-pymysql', 'php', 'php-mysql', 'libapache2-mod-php' ]
+
    - name: Install php modules
      apt:
        name:
@@ -73,6 +78,8 @@
          - php-mysql
          - php-mbstring
          - php-xml
+         - php-gd
+         - php-zip
          - php{{ php_version }}-mysql
        state: present
        update_cache: no
@@ -82,3 +89,10 @@
        owner: ubuntu
        group: ubuntu
        recurse: yes
+
+    # MySQL Configuration
+#   - name: Sets the root password
+#     mysql_user:
+#       name: root
+#       password: 'Trapok)1'
+#       login_unix_socket: /var/run/mysqld/mysqld.sock

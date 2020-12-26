@@ -23,3 +23,5 @@ notes:
 `Remove MySQL test database`
 
 
+todo:
+- don't use nvm, use normal node and set NPM_PREFIX 
